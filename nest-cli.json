@@ -17,15 +17,6 @@
         "tsConfigPath": "libs/common/tsconfig.lib.json"
       }
     },
-    "bookings_ng": {
-      "type": "application",
-      "root": "apps/bookings_ng",
-      "entryFile": "main",
-      "sourceRoot": "apps/bookings_ng/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/bookings_ng/tsconfig.app.json"
-      }
-    },
     "reservations": {
       "type": "application",
       "root": "apps/reservations",
@@ -33,6 +24,15 @@
       "sourceRoot": "apps/reservations/src",
       "compilerOptions": {
         "tsConfigPath": "apps/reservations/tsconfig.app.json"
+      }
+    },
+    "auth": {
+      "type": "application",
+      "root": "apps/auth",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth/tsconfig.app.json"
       }
     }
   },
