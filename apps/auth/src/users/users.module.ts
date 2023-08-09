@@ -14,5 +14,6 @@ import { UserRepository } from './users.repository';
       { name: UserDocument.name, schema: UserSchema },
     ]),
   ],
+  exports: [UsersService],
 })
 export class UsersModule {}
